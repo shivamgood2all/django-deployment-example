@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+  {% extends 'basic_app/basic.html' %}
+
+    {% block body_block %}
+       <h1>WELCOME TO INDEX PAGE!</h1>
+       <h1>{{ text|cut:'god'}}</h1>
+       <h1>{{ number|add:1}}</h1>
+
+    {% endblock %}
